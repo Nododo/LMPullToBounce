@@ -7,7 +7,6 @@
 //
 
 #import "LMPullToBounceWrapper.h"
-#import "BounceView.h"
 #import "UIView+PullToBounce.h"
 
 #define CONTENTOFFSET_KEYPATH @"contentOffset"
@@ -16,7 +15,6 @@
 @property (nonatomic, assign)CGFloat pullDist;
 @property (nonatomic, assign)CGFloat bendDist;
 @property (nonatomic, readonly) CGFloat stopPos;
-@property (nonatomic, strong) BounceView *bounceView;
 @property (nonatomic, weak) UIScrollView *scrollView;
 @end
 

@@ -16,4 +16,6 @@ typedef void (^EndPullHandler)();
                          color:(UIColor *)color;
 - (void)wave:(CGFloat)y;
 - (void)didReleaseWithAmountX:(CGFloat)amountX amountY:(CGFloat)amountY;
+@property (nonatomic, strong) CAShapeLayer *waveLayer;
+
 @end

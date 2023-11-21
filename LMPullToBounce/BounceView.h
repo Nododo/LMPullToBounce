@@ -21,4 +21,7 @@
 - (void)wave:(CGFloat)y;
 - (void)didRelease:(CGFloat)y;
 - (void)endingAnimation:(AnimationCompletion)completion;
+
+@property (nonatomic, strong)BallView *ballView;
+@property (nonatomic, strong)WaveView *waveView;
 @end

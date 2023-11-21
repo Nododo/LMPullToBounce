@@ -11,8 +11,7 @@
 #import "UIView+PullToBounce.h"
 
 @interface BounceView()
-@property (nonatomic, strong)BallView *ballView;
-@property (nonatomic, strong)WaveView *waveView;
+
 @end
 @implementation BounceView
 

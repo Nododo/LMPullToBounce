@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BounceView.h"
 
 typedef void (^DidPullToRefresh)();
 @interface LMPullToBounceWrapper : UIView
@@ -21,4 +22,6 @@ typedef void (^DidPullToRefresh)();
                    didPullToRefresh:(DidPullToRefresh)didPullToRefresh;
 - (instancetype) initWithScrollView:(UIScrollView *)scrollView;
 - (void)stopLoadingAnimation;
+@property (nonatomic, strong) BounceView *bounceView;
+
 @end

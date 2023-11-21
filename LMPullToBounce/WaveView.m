@@ -12,7 +12,6 @@
 
 @interface WaveView()
 @property (nonatomic, assign) CFTimeInterval bounceDuration;
-@property (nonatomic, strong) CAShapeLayer *waveLayer;
 @end
 @implementation WaveView
 
