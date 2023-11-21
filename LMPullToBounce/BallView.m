@@ -10,7 +10,6 @@
 #import "UIView+PullToBounce.h"
 
 @interface BallView()
-@property (nonatomic, strong) CircleLayer *circleLayer;
 @end
 
 @implementation BallView

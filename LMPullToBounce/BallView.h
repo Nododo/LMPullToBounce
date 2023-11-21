@@ -18,5 +18,7 @@
                          color:(UIColor *)color;
 - (void) startAnimation;
 - (void) endAnimationWithCompletion:(AnimationCompletion)completion;
+@property (nonatomic, strong) CircleLayer *circleLayer;
+
 @end
 
